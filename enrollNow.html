@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Enroll Now - Shazain Coaching</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Mentor
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Updated: May 18 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="enroll-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Shazain Coaching Center</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="enroll.html" class="active">Enroll Now</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="enrollNow.html">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Enroll Now</h1>
+              <p class="mb-0">Fill out the form below to enroll in one of our courses. We're excited to have you join us!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Enroll Now</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Enroll Section -->
+    <section id="enroll" class="enroll section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-12">
+            <form id="enroll-form" class="php-email-form" data-aos="fade-up" data-aos-delay="200" onsubmit="sendEnrollForm(event)">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="phone" placeholder="Your Phone" required="">
+                </div>
+                <div class="col-md-6">
+                  <select name="course" class="form-control" required="">
+                    <option value="">Select Course</option>
+                    <option value="Crash Course Math">Math</option>
+                    <option value="Crash Course Physics">Physics</option>
+                    <option value="English Literature">English Literature</option>
+                    <option value="History">Pakistan Studies</option>
+                    <option value="Geography">Urdu</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Art and Design">Islamic studies</option>
+                    <option value="Music">Law</option>
+                    <option value="Business Studies">Business Studies</option>
+                    <option value="Economics">Economics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Environmental Science">Commerce</option>
+                    <option value="Psychology">Psychology</option>
+                    <option value="Sociology">Sociology</option>
+                    <option value="Anthropology">Accounting</option>
+                  </select>
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message (Optional)"></textarea>
+                </div>
+                <div class="col-md-2">
+                  <label>
+                    <input type="radio" name="education_level" value="A-Level" required> A-Level
+                  </label>
+                </div>
+                <div class="col-md-2">
+                  <label>
+                    <input type="radio" name="education_level" value="O-Level" required> O-Level
+                  </label>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-success btn-sm rounded-pill px-3 py-2">Enroll Now</button>
+                </div>
+              </div>
+            </form>
+            <!-- Alert div for success and error messages -->
+            <div id="alert-container" class="mt-3"></div>
+            <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+            <script type="text/javascript">
+              (function() {
+                emailjs.init("d1oTjbLmifRaCVGG8");
+              })();
+    
+              function sendEnrollForm(event) {
+                event.preventDefault(); // Prevent the form from submitting the default way
+    
+                // Get form data
+                var form = document.getElementById('enroll-form');
+                var formData = new FormData(form);
+    
+                // Prepare parameters for EmailJS
+                var params = {
+                  from_name: formData.get('name'),
+                  from_email: formData.get('email'),
+                  phone: formData.get('phone'),
+                  course: formData.get('course'),
+                  message: formData.get('message'),
+                  education_level: document.querySelector('input[name="education_level"]:checked')?.value || ''
+                };
+    
+                console.log("Sending email with params:", params); // Debugging log
+    
+                // Send the email
+                emailjs.send("service_1x4p2ka", "template_89uyrem", params)
+                  .then(function(res) {
+                    console.log("Email sent successfully:", res); // Debugging log
+                    showCustomAlert('Successfully enrolled', 'success');
+                  })
+                  .catch(function(error) {
+                    console.error("Error sending email:", error); // Debugging log
+                    showCustomAlert('There was an error with your enrollment. Please try again later.', 'error');
+                  });
+              }
+    
+              function showCustomAlert(message, type) {
+                var alertContainer = document.getElementById('alert-container');
+                alertContainer.innerHTML = '';
+    
+                var alertDiv = document.createElement('div');
+                alertDiv.className = 'alert alert-' + (type === 'success' ? 'success' : 'danger');
+                alertDiv.textContent = message;
+    
+                alertContainer.appendChild(alertDiv);
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Mentor</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Shar Shah colony Raiwind Road Lahore</p>
+            <p>Lahore, Punjab</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+923019241254<br>+923284820573</span></p>
+            <p><strong>Email:</strong> <span>saimisaqi2022@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="enrollNow.html">Enroll Now</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-4 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="courses.html">A-Level All Courses</a></li>
+            <li><a href="courses.html">O-Level All Courses</a></li>
+            <li><a href="courses.html">Crash Course Math</a></li>
+            <li><a href="courses.html">Crash Course Physics</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    
+  </footer>
+
+ <!-- Scroll Top -->
+ <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+ <!-- Preloader -->
+ <div id="preloader"></div>
+
+ <!-- Vendor JS Files -->
+ <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="assets/vendor/php-email-form/validate.js"></script>
+ <script src="assets/vendor/aos/aos.js"></script>
+ <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+ <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+ <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+ <!-- Main JS File -->
+ <script src="assets/js/main.js"></script>
+
+</body>
+
+</html> 
